@@ -7,6 +7,7 @@ This project implements and evaluates a range of **state-space filtering methods
 * Classical filters (KF, EKF, UKF)
 * Particle filters (BPF, UPF, GSMC)
 * Particle Flow Filters (Li and Hu-type flows)
+* Differentiable particle-filter resampling methods
 * Monte Carlo evaluation pipelines
 
 The repository is structured so that each file handles a **specific component of the pipeline**, and together they form a complete simulation–filtering–evaluation workflow.
@@ -22,7 +23,7 @@ The repository is structured so that each file handles a **specific component of
 **Expected behavior:**
 
 * Generates synthetic data (e.g., linear Gaussian models and skewed-t Poisson model)
-* Provides likelihood functions (e.g., Gaussian log-likelihood, Poisson likelihood)
+* Provides likelihood functions (e.g., Gaussian log-likelihood, Poisson log-likelihood)
 * Defines transition dynamics and helper utilities
 
 This file defines the **models that all filters operate on** 
@@ -45,7 +46,7 @@ These functions implement **nonlinear transformations of particles** using kerne
 
 ### 🔹 `replicate_Li_filters.py`
 
-**Purpose:** Filtering algorithms
+**Purpose:** Filtering algorithms inspired by Li et al.
 
 **Expected behavior:**
 
@@ -53,8 +54,9 @@ These functions implement **nonlinear transformations of particles** using kerne
 * Provides prediction and update steps
 * Includes ensemble-based filtering (e.g., ESRF)
 * Contains particle filtering utilities (UPF)
+* Provides reusable filtering runners, including flow-based particle filter wrappers
 
-This file contains the **core filtering logic** used across experiments 
+This file contains the **core filtering logic** used across experiments (Example B and Example C of Li's paper)
 
 ---
 
@@ -67,6 +69,42 @@ This file contains the **core filtering logic** used across experiments
 * Generates annealing schedules (beta sequences)
 * Used in progressive filtering / homotopy methods
 * Controls transition between prior and posterior
+
+---
+
+### 🔹 `differentiablePF_resampling.py`
+
+**Purpose:** Resampling methods for particle filters
+
+**Expected behavior:**
+
+* Implements multiple resampling strategies:
+
+  * Multinomial resampling (baseline)
+  * Mixture uniform–multinomial resampling
+  * No-resampling baseline
+  * PFNet-style soft resampling
+  * Entropy-regularized Optimal Transport (OT) resampling
+
+* OT resampling is implemented via a **log-domain Sinkhorn solver**
+* Supports **warm-started dual variables** for acceleration
+* Uses **barycentric projection** to transport particles
+
+* Includes **robust OT resampling**, where the transport cost is:
+  * smoothly clipped (differentiable)
+  * or hard clipped (stronger robustness)
+
+* Provides **hyperparameter tuning** over:
+  * entropic regularization (ε)
+  * Sinkhorn iterations
+  * ESS penalty
+  * robustness parameters
+
+* Includes utilities for:
+  * benchmarking with Kalman filtering
+  * Gaussian transition and likelihood models
+
+This module defines the **resampling layer of the particle filter**, enabling differentiable, stable, and robust particle updates.
 
 ---
 
@@ -158,6 +196,7 @@ The project follows this pipeline:
 
    * `replicate_Li_filters.py` applies filtering methods
    * `Hu_filters_utils.py` provides particle flow transformations
+   * `differentiablePF_resampling.py` provides resampling strategies (classical, soft, OT-based)
 
 3. **Evaluation**
 
@@ -199,6 +238,8 @@ python -m unittest test_all.py
 * All modules are interconnected; moving files may break imports
 * The project uses TensorFlow for numerical computation
 * Numerical stability is handled internally (e.g., covariance checks, kernel regularization)
+* OT-based resampling relies on entropy-regularized Sinkhorn iterations and may require tuning
+* Robust OT can be used to improve stability in presence of outliers
 
 ---
 
