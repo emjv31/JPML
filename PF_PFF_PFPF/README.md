@@ -21,8 +21,8 @@ The repository is structured so that each file handles a **specific component of
 
 **Expected behavior:**
 
-* Generates synthetic state-space data (e.g., linear Gaussian models)
-* Provides likelihood functions (e.g., Gaussian log-likelihood)
+* Generates synthetic data (e.g., linear Gaussian models and skewed-t Poisson model)
+* Provides likelihood functions (e.g., Gaussian log-likelihood, Poisson likelihood)
 * Defines transition dynamics and helper utilities
 
 This file defines the **models that all filters operate on** 
@@ -107,7 +107,7 @@ This file is used to **produce a limited number of diagnostic plots** for the Hu
 
 **Expected behavior:**
 
-* Launches filtering experiments
+* Perform filtering experiments
 * Calls simulation, filtering, and evaluation modules
 * Produces results for analysis
 
