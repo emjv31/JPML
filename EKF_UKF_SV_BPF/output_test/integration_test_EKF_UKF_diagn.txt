@@ -1,0 +1,21 @@
+test_dataframe_and_store_have_expected_size (__main__.TestQuadraticHeatmapAnalysisIntegration.test_dataframe_and_store_have_expected_size)
+Checks the real pipeline returns one result per grid pair. ... ok
+test_dataframe_has_expected_columns_and_finite_values (__main__.TestQuadraticHeatmapAnalysisIntegration.test_dataframe_has_expected_columns_and_finite_values)
+Checks the summary DataFrame has the expected columns and finite numeric values. ... ok
+test_diagnostics_store_has_expected_structure (__main__.TestQuadraticHeatmapAnalysisIntegration.test_diagnostics_store_has_expected_structure)
+Checks each diagnostics entry contains simulation output and both filters. ... ok
+test_find_bad_pair_missing_raises (__main__.TestQuadraticHeatmapAnalysisIntegration.test_find_bad_pair_missing_raises)
+Checks missing parameter pairs raise KeyError. ... ok
+test_find_bad_pair_returns_existing_key (__main__.TestQuadraticHeatmapAnalysisIntegration.test_find_bad_pair_returns_existing_key)
+Checks exact existing parameter pairs are recovered from diagnostics_store. ... ok
+test_acf_plot_runs_on_real_selected_configs (__main__.TestQuadraticPlotsIntegration.test_acf_plot_runs_on_real_selected_configs)
+Checks ACF plot runs on real diagnostics output. ... ok
+test_pacf_plot_runs_on_real_selected_configs (__main__.TestQuadraticPlotsIntegration.test_pacf_plot_runs_on_real_selected_configs)
+Checks PACF plot runs on real diagnostics output. ... ok
+test_summary_and_dataframe_plots_run (__main__.TestQuadraticPlotsIntegration.test_summary_and_dataframe_plots_run)
+Checks summary/heatmap plots run on real pipeline output. ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 12.970s
+
+OK

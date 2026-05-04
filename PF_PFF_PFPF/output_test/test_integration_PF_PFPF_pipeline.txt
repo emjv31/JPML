@@ -1,0 +1,71 @@
+test_bad_filter_output (test_all.TestMonteCarloLightLost.test_bad_filter_output) ... ok
+test_invalid_N_MC (test_all.TestMonteCarloLightLost.test_invalid_N_MC) ... ok
+test_invalid_X_shape (test_all.TestMonteCarloLightLost.test_invalid_X_shape) ... ok
+test_invalid_filter (test_all.TestMonteCarloLightLost.test_invalid_filter) ... ok
+test_lost_tracks (test_all.TestMonteCarloLightLost.test_lost_tracks) ... ok
+test_monte_carlo_stability (test_all.TestMonteCarloLightLost.test_monte_carlo_stability) ... ok
+test_perfect_filter (test_all.TestMonteCarloLightLost.test_perfect_filter) ... ok
+test_shape_mismatch (test_all.TestMonteCarloLightLost.test_shape_mismatch) ... ok
+test_invalid_inputs (test_all.TestRunMonteCarloSim.test_invalid_inputs) ... ok
+test_multiple_filters (test_all.TestRunMonteCarloSim.test_multiple_filters) ... ok
+test_valid (test_all.TestRunMonteCarloSim.test_valid) ... ok
+test_custom_output_names (test_all.TestMonteCarloFinal.test_custom_output_names) ... ok
+test_dict_output (test_all.TestMonteCarloFinal.test_dict_output) ... ok
+test_invalid_N_MC (test_all.TestMonteCarloFinal.test_invalid_N_MC) ... ok
+test_invalid_Y (test_all.TestMonteCarloFinal.test_invalid_Y) ... ok
+test_invalid_Y_shape (test_all.TestMonteCarloFinal.test_invalid_Y_shape) ... ok
+test_invalid_filter_fn (test_all.TestMonteCarloFinal.test_invalid_filter_fn) ... ok
+test_invalid_output_names_content (test_all.TestMonteCarloFinal.test_invalid_output_names_content) ... ok
+test_invalid_output_names_type (test_all.TestMonteCarloFinal.test_invalid_output_names_type) ... ok
+test_output_name_length_mismatch (test_all.TestMonteCarloFinal.test_output_name_length_mismatch) ... ok
+test_valid_run (test_all.TestMonteCarloFinal.test_valid_run) ... ok
+test_baseline_filters_run (test_all.TestGaussianPipelineIntegration.test_baseline_filters_run) ... skipped 'Abstract base class'
+test_baseline_monte_carlo_runs (test_all.TestGaussianPipelineIntegration.test_baseline_monte_carlo_runs) ... skipped 'Abstract base class'
+test_bpf_resampling_variants (test_all.TestGaussianPipelineIntegration.test_bpf_resampling_variants) ... skipped 'Abstract base class'
+test_extended_filters_run (test_all.TestGaussianPipelineIntegration.test_extended_filters_run) ... skipped 'Abstract base class'
+test_pfpf_beta_and_resampling_variants (test_all.TestGaussianPipelineIntegration.test_pfpf_beta_and_resampling_variants) ... skipped 'Abstract base class'
+test_baseline_filters_run (test_all.TestSkewTPoissonPipelineIntegration.test_baseline_filters_run) ... skipped 'Abstract base class'
+test_baseline_monte_carlo_runs (test_all.TestSkewTPoissonPipelineIntegration.test_baseline_monte_carlo_runs) ... skipped 'Abstract base class'
+test_bpf_resampling_variants (test_all.TestSkewTPoissonPipelineIntegration.test_bpf_resampling_variants) ... skipped 'Abstract base class'
+test_extended_filters_run (test_all.TestSkewTPoissonPipelineIntegration.test_extended_filters_run) ... skipped 'Abstract base class'
+test_pfpf_beta_and_resampling_variants (test_all.TestSkewTPoissonPipelineIntegration.test_pfpf_beta_and_resampling_variants) ... skipped 'Abstract base class'
+test_gaussian_pipeline_runs_accuracy_and_diagnostics (test_all.TestRunEDHLEDHPipeline.test_gaussian_pipeline_runs_accuracy_and_diagnostics) ... skipped 'Outdated pipeline API test: final pipeline does not use model_type'
+test_invalid_model_type_raises (test_all.TestRunEDHLEDHPipeline.test_invalid_model_type_raises) ... skipped 'Outdated pipeline API test: final pipeline does not use model_type'
+test_pipeline_default_methods_create_all_four_filters_gaussian (test_all.TestRunEDHLEDHPipeline.test_pipeline_default_methods_create_all_four_filters_gaussian) ... skipped 'Outdated pipeline API test: final pipeline does not use model_type'
+test_pipeline_default_methods_create_all_four_filters_poisson (test_all.TestRunEDHLEDHPipeline.test_pipeline_default_methods_create_all_four_filters_poisson) ... skipped 'Outdated pipeline API test: final pipeline does not use model_type'
+test_pipeline_runs_only_accuracy (test_all.TestRunEDHLEDHPipeline.test_pipeline_runs_only_accuracy) ... skipped 'Outdated pipeline API test: final pipeline does not use model_type'
+test_pipeline_runs_only_diagnostics (test_all.TestRunEDHLEDHPipeline.test_pipeline_runs_only_diagnostics) ... skipped 'Outdated pipeline API test: final pipeline does not use model_type'
+test_poisson_pipeline_accepts_different_m1_m2_and_beta (test_all.TestRunEDHLEDHPipeline.test_poisson_pipeline_accepts_different_m1_m2_and_beta) ... skipped 'Outdated pipeline API test: final pipeline does not use model_type'
+test_poisson_pipeline_runs_accuracy_and_diagnostics (test_all.TestRunEDHLEDHPipeline.test_poisson_pipeline_runs_accuracy_and_diagnostics) ... skipped 'Outdated pipeline API test: final pipeline does not use model_type'
+test_hu_matrix_filter_runs (test_all.TestHuPFFMonteCarloIntegration.test_hu_matrix_filter_runs) ... ok
+test_hu_scalar_filter_runs (test_all.TestHuPFFMonteCarloIntegration.test_hu_scalar_filter_runs) ... ok
+test_monte_carlo_final_hu_matrix_runs (test_all.TestHuPFFMonteCarloIntegration.test_monte_carlo_final_hu_matrix_runs) ... ok
+test_monte_carlo_final_hu_scalar_runs (test_all.TestHuPFFMonteCarloIntegration.test_monte_carlo_final_hu_scalar_runs) ... ok
+test_monte_carlo_final_invalid_output_names_length_raises (test_all.TestHuPFFMonteCarloIntegration.test_monte_carlo_final_invalid_output_names_length_raises) ... ok
+test_poisson_gradient_wrapper_changes_with_m1_m2 (test_all.TestHuPFFMonteCarloIntegration.test_poisson_gradient_wrapper_changes_with_m1_m2) ... ok
+test_run_monte_carlo_sim_with_hu_runs (test_all.TestHuPFFMonteCarloIntegration.test_run_monte_carlo_sim_with_hu_runs) ... ok
+test_beta_configuration_runs (test_all.TestRunPFPFWrapper.test_beta_configuration_runs)
+The beta parameter passed to the factory should be accepted and lead to a valid execution. ... ok
+test_edh_runs (test_all.TestRunPFPFWrapper.test_edh_runs)
+Weighted baseline EDH configuration: the wrapper should execute and return finite outputs. ... ok
+test_factory_returns_callable (test_all.TestRunPFPFWrapper.test_factory_returns_callable)
+The factory should return a callable function. ... ok
+test_factory_returns_callable_with_compile_tf_true (test_all.TestRunPFPFWrapper.test_factory_returns_callable_with_compile_tf_true)
+Smoke test: the factory should return a callable in compiled mode ... ok
+test_invalid_flow_type_raises (test_all.TestRunPFPFWrapper.test_invalid_flow_type_raises)
+Invalid flow_type should fail at execution time. ... ok
+test_invalid_measurement_type_raises (test_all.TestRunPFPFWrapper.test_invalid_measurement_type_raises)
+Invalid measurement_type should fail at execution time. ... ok
+test_invalid_np_raises (test_all.TestRunPFPFWrapper.test_invalid_np_raises)
+The wrapper should raise error when Np is invalid. ... ok
+test_ledh_runs (test_all.TestRunPFPFWrapper.test_ledh_runs)
+Weighted baseline LEDH configuration: the wrapper should execute and return finite outputs. ... ok
+test_no_weights_runs (test_all.TestRunPFPFWrapper.test_no_weights_runs)
+With use_weights=False the wrapper should execute and return ESS=None. ... ok
+test_tune_ot_entropy_regularized_with_real_bpf (test_all.TestOTEntropyTuningIntegrationLG.test_tune_ot_entropy_regularized_with_real_bpf) ... ok
+test_tune_robust_ot_entropy_regularized_with_real_bpf (test_all.TestOTEntropyTuningIntegrationLG.test_tune_robust_ot_entropy_regularized_with_real_bpf) ... ok
+
+----------------------------------------------------------------------
+Ran 57 tests in 16.078s
+
+OK (skipped=18)

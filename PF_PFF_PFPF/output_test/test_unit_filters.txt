@@ -1,0 +1,126 @@
+test_kf_kernels_basic (test_all.TestKFKernels.test_kf_kernels_basic) ... ok
+test_convergence_kf (test_all.TestKFFilterWrappers.test_convergence_kf) ... ok
+test_invalid_input_raises (test_all.TestKFFilterWrappers.test_invalid_input_raises) ... ok
+test_run_ekf_wrap (test_all.TestKFFilterWrappers.test_run_ekf_wrap) ... ok
+test_run_kf_wrap (test_all.TestKFFilterWrappers.test_run_kf_wrap) ... ok
+test_run_ukf_wrap (test_all.TestKFFilterWrappers.test_run_ukf_wrap) ... ok
+test_invalid_F_output_shape (test_all.TestESRFFilter.test_invalid_F_output_shape) ... ok
+test_invalid_H_output_shape (test_all.TestESRFFilter.test_invalid_H_output_shape) ... ok
+test_invalid_Q (test_all.TestESRFFilter.test_invalid_Q) ... ok
+test_invalid_R (test_all.TestESRFFilter.test_invalid_R) ... ok
+test_invalid_measurement_type (test_all.TestESRFFilter.test_invalid_measurement_type) ... ok
+test_invalid_measurements_shape (test_all.TestESRFFilter.test_invalid_measurements_shape) ... ok
+test_non_callable_F_H (test_all.TestESRFFilter.test_non_callable_F_H) ... ok
+test_non_tensor_input (test_all.TestESRFFilter.test_non_tensor_input) ... ok
+test_runs (test_all.TestESRFFilter.test_runs) ... ok
+test_shapes_and_finite (test_all.TestESRFFilter.test_shapes_and_finite) ... ok
+test_ESS_properties (test_all.TestUPFParticleFilter.test_ESS_properties) ... ok
+test_basic_run (test_all.TestUPFParticleFilter.test_basic_run) ... ok
+test_invalid_Np (test_all.TestUPFParticleFilter.test_invalid_Np) ... ok
+test_invalid_Y_shape (test_all.TestUPFParticleFilter.test_invalid_Y_shape) ... ok
+test_invalid_covariance (test_all.TestUPFParticleFilter.test_invalid_covariance) ... ok
+test_non_callable_functions (test_all.TestUPFParticleFilter.test_non_callable_functions) ... ok
+test_numpy_input_not_allowed (test_all.TestUPFParticleFilter.test_numpy_input_not_allowed) ... ok
+test_ESS_properties (test_all.TestGSMCParticleFilter.test_ESS_properties) ... ok
+test_basic_run (test_all.TestGSMCParticleFilter.test_basic_run) ... ok
+test_empty_Y (test_all.TestGSMCParticleFilter.test_empty_Y) ... ok
+test_invalid_Np (test_all.TestGSMCParticleFilter.test_invalid_Np) ... ok
+test_invalid_Y_shape (test_all.TestGSMCParticleFilter.test_invalid_Y_shape) ... ok
+test_invalid_likelihood_output (test_all.TestGSMCParticleFilter.test_invalid_likelihood_output) ... ok
+test_non_callable_functions (test_all.TestGSMCParticleFilter.test_non_callable_functions) ... ok
+test_numpy_input_not_allowed (test_all.TestGSMCParticleFilter.test_numpy_input_not_allowed) ... ok
+test_resampling_fn_not_callable (test_all.TestGSMCParticleFilter.test_resampling_fn_not_callable) ... ok
+test_ESS_properties (test_all.TestBPFBlock.test_ESS_properties) ... ok
+test_basic_run (test_all.TestBPFBlock.test_basic_run) ... ok
+test_empty_Y (test_all.TestBPFBlock.test_empty_Y) ... ok
+test_invalid_Np (test_all.TestBPFBlock.test_invalid_Np) ... ok
+test_invalid_Y_shape (test_all.TestBPFBlock.test_invalid_Y_shape) ... ok
+test_invalid_block_size (test_all.TestBPFBlock.test_invalid_block_size) ... ok
+test_non_callable_functions (test_all.TestBPFBlock.test_non_callable_functions) ... ok
+test_numpy_input_not_allowed (test_all.TestBPFBlock.test_numpy_input_not_allowed) ... ok
+test_resampling_fn_not_callable (test_all.TestBPFBlock.test_resampling_fn_not_callable) ... ok
+test_basic_run (test_all.TestHMCHelper.test_basic_run) ... ok
+test_invalid_likelihood_output (test_all.TestHMCHelper.test_invalid_likelihood_output) ... ok
+test_output_changes_particles (test_all.TestHMCHelper.test_output_changes_particles) ... ok
+test_stability_no_nan_inf (test_all.TestHMCHelper.test_stability_no_nan_inf) ... ok
+test_ESS_properties (test_all.TestSMHMCParticleFilter.test_ESS_properties) ... ok
+test_basic_run (test_all.TestSMHMCParticleFilter.test_basic_run) ... ok
+test_empty_Y (test_all.TestSMHMCParticleFilter.test_empty_Y) ... ok
+test_invalid_Np (test_all.TestSMHMCParticleFilter.test_invalid_Np) ... ok
+test_invalid_Y_shape (test_all.TestSMHMCParticleFilter.test_invalid_Y_shape) ... ok
+test_invalid_hmc_params (test_all.TestSMHMCParticleFilter.test_invalid_hmc_params) ... ok
+test_invalid_likelihood_output (test_all.TestSMHMCParticleFilter.test_invalid_likelihood_output) ... ok
+test_non_callable_functions (test_all.TestSMHMCParticleFilter.test_non_callable_functions) ... ok
+test_numpy_input_conversion (test_all.TestSMHMCParticleFilter.test_numpy_input_conversion) ... ok
+test_resampling_fn_not_callable (test_all.TestSMHMCParticleFilter.test_resampling_fn_not_callable) ... ok
+test_basic_run_edh (test_all.TestParticleFlowUpdate.test_basic_run_edh) ... ok
+test_basic_run_ledh (test_all.TestParticleFlowUpdate.test_basic_run_ledh) ... ok
+test_beta_equivalent_to_single_uniform_step (test_all.TestParticleFlowUpdate.test_beta_equivalent_to_single_uniform_step) ... ok
+test_beta_schedule_runs (test_all.TestParticleFlowUpdate.test_beta_schedule_runs) ... ok
+test_diagnostics_output_edh (test_all.TestParticleFlowUpdate.test_diagnostics_output_edh) ... ok
+test_diagnostics_output_ledh (test_all.TestParticleFlowUpdate.test_diagnostics_output_ledh) ... ok
+test_h_and_jacobian_shapes (test_all.TestParticleFlowUpdate.test_h_and_jacobian_shapes) ... ok
+test_invalid_beta_shape_raises (test_all.TestParticleFlowUpdate.test_invalid_beta_shape_raises) ... ok
+test_invalid_flow_type_raises (test_all.TestParticleFlowUpdate.test_invalid_flow_type_raises) ... ok
+test_update_changes_particles_when_measurement_differs (test_all.TestParticleFlowUpdate.test_update_changes_particles_when_measurement_differs) ... ok
+test_collect_resampling_examples_runs (test_all.TestParticleFlowPFPropagation.test_collect_resampling_examples_runs)
+Checks resampling examples are collected when requested. ... ok
+test_diagnostics_outputs_present (test_all.TestParticleFlowPFPropagation.test_diagnostics_outputs_present)
+Checks diagnostics mode returns flow-related tensors. ... ok
+test_edh_basic_run (test_all.TestParticleFlowPFPropagation.test_edh_basic_run)
+Checks basic EDH execution returns finite outputs. ... ok
+test_empty_measurements_raises (test_all.TestParticleFlowPFPropagation.test_empty_measurements_raises)
+Checks empty measurement sequences raise ValueError. ... ok
+test_fixed_prop_noise_requires_noise_bank (test_all.TestParticleFlowPFPropagation.test_fixed_prop_noise_requires_noise_bank)
+Checks fixed propagation noise mode requires a noise bank. ... ok
+test_fixed_prop_noise_requires_stochastic_propagation (test_all.TestParticleFlowPFPropagation.test_fixed_prop_noise_requires_stochastic_propagation)
+Checks fixed propagation noise mode requires prop_fn_stoch_drift. ... ok
+test_fixed_prop_noise_runs (test_all.TestParticleFlowPFPropagation.test_fixed_prop_noise_runs)
+Checks fixed propagation noise branch executes. ... ok
+test_invalid_Np_raises (test_all.TestParticleFlowPFPropagation.test_invalid_Np_raises)
+Checks Np must be an integer greater than 1. ... ok
+test_invalid_flow_type_raises (test_all.TestParticleFlowPFPropagation.test_invalid_flow_type_raises)
+Checks invalid flow_type raises ValueError. ... ok
+test_invalid_measurement_type_raises (test_all.TestParticleFlowPFPropagation.test_invalid_measurement_type_raises)
+Checks invalid measurement_type raises ValueError. ... ok
+test_invalid_measurements_shape_raises (test_all.TestParticleFlowPFPropagation.test_invalid_measurements_shape_raises)
+Checks measurements must have shape (T, d). ... ok
+test_invalid_prop_noise_shape_raises (test_all.TestParticleFlowPFPropagation.test_invalid_prop_noise_shape_raises)
+Checks prop_noise_bank must have shape [T, Np, d]. ... ok
+test_ledh_basic_run (test_all.TestParticleFlowPFPropagation.test_ledh_basic_run)
+Checks basic LEDH execution returns finite outputs. ... ok
+test_loglik_weight_helper_runs (test_all.TestParticleFlowPFPropagation.test_loglik_weight_helper_runs)
+Checks external weighting helper branch executes. ... ok
+test_non_bool_diagnostics_raises (test_all.TestParticleFlowPFPropagation.test_non_bool_diagnostics_raises)
+Checks diagnostics must be boolean. ... ok
+test_non_bool_use_weights_raises (test_all.TestParticleFlowPFPropagation.test_non_bool_use_weights_raises)
+Checks use_weights must be boolean. ... ok
+test_non_callable_inputs_raise (test_all.TestParticleFlowPFPropagation.test_non_callable_inputs_raise)
+Checks required function arguments must be callable. ... ok
+test_numpy_measurements_input_runs (test_all.TestParticleFlowPFPropagation.test_numpy_measurements_input_runs)
+Checks numpy measurements are accepted. ... ok
+test_poisson_measurement_runs (test_all.TestParticleFlowPFPropagation.test_poisson_measurement_runs)
+Checks Poisson measurement branch executes. ... ok
+test_resampling_fn_runs (test_all.TestParticleFlowPFPropagation.test_resampling_fn_runs)
+Checks optional resampling branch executes. ... ok
+test_run_without_weights (test_all.TestParticleFlowPFPropagation.test_run_without_weights)
+Checks the no-weight branch returns ESS as None. ... ok
+test_stochastic_propagation_runs (test_all.TestParticleFlowPFPropagation.test_stochastic_propagation_runs)
+Checks stochastic propagation branch executes. ... ok
+test_zero_loglik_gives_zero_total_loglik (test_all.TestParticleFlowPFPropagation.test_zero_loglik_gives_zero_total_loglik)
+Checks zero log-likelihood leads to zero accumulated log-likelihood. ... ok
+test_filter_runs (test_all.TestPFFHuFilter.test_filter_runs) ... ok
+test_matrix_and_scalar_flows_are_not_identical_when_metric_changes (test_all.TestHuFactories.test_matrix_and_scalar_flows_are_not_identical_when_metric_changes) ... ok
+test_matrix_flow_factory_output (test_all.TestHuFactories.test_matrix_flow_factory_output) ... ok
+test_matrix_kernel_factory_output (test_all.TestHuFactories.test_matrix_kernel_factory_output) ... ok
+test_scalar_flow_factory_output (test_all.TestHuFactories.test_scalar_flow_factory_output) ... ok
+test_scalar_kernel_factory_output (test_all.TestHuFactories.test_scalar_kernel_factory_output) ... ok
+test_make_flow_matrix_matches_manual_formula (test_all.TestMakeFlowFunctions.test_make_flow_matrix_matches_manual_formula) ... ok
+test_make_flow_matrix_output_validity (test_all.TestMakeFlowFunctions.test_make_flow_matrix_output_validity) ... ok
+test_make_flow_scalar_matches_manual_formula (test_all.TestMakeFlowFunctions.test_make_flow_scalar_matches_manual_formula) ... ok
+test_make_flow_scalar_output_validity (test_all.TestMakeFlowFunctions.test_make_flow_scalar_output_validity) ... ok
+
+----------------------------------------------------------------------
+Ran 98 tests in 15.887s
+
+OK

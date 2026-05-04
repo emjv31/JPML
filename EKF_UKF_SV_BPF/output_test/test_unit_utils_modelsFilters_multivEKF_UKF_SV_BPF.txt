@@ -1,0 +1,203 @@
+test_all_scalars_default_to_one (__main__.TestInferDimFromParamsTF.test_all_scalars_default_to_one)
+Checks all-scalar inputs imply univariate dimension 1. ... ok
+test_explicit_d_is_returned (__main__.TestInferDimFromParamsTF.test_explicit_d_is_returned)
+Checks explicit valid d overrides parameter inspection. ... ok
+test_incompatible_dimensions_raise (__main__.TestInferDimFromParamsTF.test_incompatible_dimensions_raise)
+Checks incompatible inferred dimensions raise ValueError. ... ok
+test_infers_dimension_from_square_matrix (__main__.TestInferDimFromParamsTF.test_infers_dimension_from_square_matrix)
+Checks a square matrix parameter determines the inferred dimension. ... ok
+test_infers_dimension_from_vector (__main__.TestInferDimFromParamsTF.test_infers_dimension_from_vector)
+Checks a vector parameter determines the inferred dimension. ... ok
+test_invalid_explicit_d_raises (__main__.TestInferDimFromParamsTF.test_invalid_explicit_d_raises)
+Checks invalid explicit d raises ValueError. ... ok
+test_non_square_matrix_raises (__main__.TestInferDimFromParamsTF.test_non_square_matrix_raises)
+Checks non-square matrix parameters raise ValueError. ... ok
+test_rank_greater_than_two_raises (__main__.TestInferDimFromParamsTF.test_rank_greater_than_two_raises)
+Checks rank-3 or higher parameters raise ValueError. ... ok
+test_rank_greater_than_one_raises (__main__.TestAsVectorParamTF.test_rank_greater_than_one_raises)
+Checks only scalar or rank-1 inputs are accepted. ... ok
+test_scalar_expands_to_length_d_vector (__main__.TestAsVectorParamTF.test_scalar_expands_to_length_d_vector)
+Checks a scalar is expanded to a constant vector of length d. ... ok
+test_vector_is_returned_unchanged (__main__.TestAsVectorParamTF.test_vector_is_returned_unchanged)
+Checks a valid length-d vector is returned unchanged. ... ok
+test_wrong_length_vector_raises (__main__.TestAsVectorParamTF.test_wrong_length_vector_raises)
+Checks a vector with the wrong length raises InvalidArgumentError. ... ok
+test_rank_greater_than_one_raises (__main__.TestMakeScaleVectorTF.test_rank_greater_than_one_raises)
+Checks xi must be scalar or vector only. ... ok
+test_scalar_xi_nonpositive_raises (__main__.TestMakeScaleVectorTF.test_scalar_xi_nonpositive_raises)
+Checks scalar xi must be strictly positive. ... ok
+test_scalar_xi_returns_constant_vector (__main__.TestMakeScaleVectorTF.test_scalar_xi_returns_constant_vector)
+Checks scalar xi is expanded to a positive length-d vector. ... ok
+test_vector_xi_nonpositive_entry_raises (__main__.TestMakeScaleVectorTF.test_vector_xi_nonpositive_entry_raises)
+Checks all xi vector entries must be strictly positive. ... ok
+test_vector_xi_returns_same_vector (__main__.TestMakeScaleVectorTF.test_vector_xi_returns_same_vector)
+Checks a valid xi vector is returned unchanged. ... ok
+test_vector_xi_wrong_length_raises (__main__.TestMakeScaleVectorTF.test_vector_xi_wrong_length_raises)
+Checks xi vector must have length d. ... ok
+test_matrix_phi_returns_matrix_when_stable (__main__.TestAsTransitionMatrixTF.test_matrix_phi_returns_matrix_when_stable)
+Checks a stable phi matrix is returned unchanged. ... ok
+test_matrix_phi_unstable_raises (__main__.TestAsTransitionMatrixTF.test_matrix_phi_unstable_raises)
+Checks a phi matrix with spectral radius >= 1 raises InvalidArgumentError. ... ok
+test_matrix_phi_wrong_shape_raises (__main__.TestAsTransitionMatrixTF.test_matrix_phi_wrong_shape_raises)
+Checks phi matrix must have shape (d,d). ... ok
+test_rank_greater_than_two_raises (__main__.TestAsTransitionMatrixTF.test_rank_greater_than_two_raises)
+Checks phi must be scalar, vector, or matrix only. ... ok
+test_scalar_phi_returns_scaled_identity (__main__.TestAsTransitionMatrixTF.test_scalar_phi_returns_scaled_identity)
+Checks scalar phi produces phi times the identity matrix. ... ok
+test_scalar_phi_with_abs_ge_one_raises (__main__.TestAsTransitionMatrixTF.test_scalar_phi_with_abs_ge_one_raises)
+Checks unstable scalar phi raises InvalidArgumentError. ... ok
+test_vector_phi_returns_diagonal_matrix (__main__.TestAsTransitionMatrixTF.test_vector_phi_returns_diagonal_matrix)
+Checks vector phi produces a diagonal transition matrix. ... ok
+test_vector_phi_with_unstable_entry_raises (__main__.TestAsTransitionMatrixTF.test_vector_phi_with_unstable_entry_raises)
+Checks all phi vector entries must satisfy |phi_i| < 1. ... ok
+test_vector_phi_wrong_length_raises (__main__.TestAsTransitionMatrixTF.test_vector_phi_wrong_length_raises)
+Checks phi vector must have length d. ... ok
+test_matrix_sigma_returns_matrix_and_cholesky (__main__.TestMakeCovarianceAndCholTF.test_matrix_sigma_returns_matrix_and_cholesky)
+Checks covariance matrix input is returned with its cholesky factor. ... ok
+test_matrix_sigma_wrong_shape_raises (__main__.TestMakeCovarianceAndCholTF.test_matrix_sigma_wrong_shape_raises)
+Checks covariance matrix input must have shape (d,d). ... ok
+test_non_psd_matrix_sigma_fails (__main__.TestMakeCovarianceAndCholTF.test_non_psd_matrix_sigma_fails)
+Checks non-positive-definite covariance input fails or yields non-finite cholesky. ... ok
+test_rank_greater_than_two_raises (__main__.TestMakeCovarianceAndCholTF.test_rank_greater_than_two_raises)
+Checks sigma input with rank greater than 2 raises ValueError. ... ok
+test_scalar_sigma_nonpositive_raises (__main__.TestMakeCovarianceAndCholTF.test_scalar_sigma_nonpositive_raises)
+Checks scalar std must be positive. ... ok
+test_scalar_sigma_returns_isotropic_covariance_and_chol (__main__.TestMakeCovarianceAndCholTF.test_scalar_sigma_returns_isotropic_covariance_and_chol)
+Checks scalar std produces isotropic covariance and matching cholesky. ... ok
+test_vector_sigma_nonpositive_entry_raises (__main__.TestMakeCovarianceAndCholTF.test_vector_sigma_nonpositive_entry_raises)
+Checks all vector std entries must be positive. ... ok
+test_vector_sigma_returns_diagonal_covariance_and_chol (__main__.TestMakeCovarianceAndCholTF.test_vector_sigma_returns_diagonal_covariance_and_chol)
+Checks vector stds produce diagonal covariance and diagonal cholesky. ... ok
+test_vector_sigma_wrong_length_raises (__main__.TestMakeCovarianceAndCholTF.test_vector_sigma_wrong_length_raises)
+Checks sigma vector must have length d. ... ok
+test_matrix_sigma_returns_cholesky (__main__.TestAsNoiseCholTF.test_matrix_sigma_returns_cholesky)
+Checks covariance matrix input returns its cholesky factor. ... ok
+test_matrix_sigma_wrong_shape_raises (__main__.TestAsNoiseCholTF.test_matrix_sigma_wrong_shape_raises)
+Checks covariance matrix input must have shape (d,d). ... ok
+test_non_psd_matrix_sigma_fails (__main__.TestAsNoiseCholTF.test_non_psd_matrix_sigma_fails)
+Checks non-positive-definite covariance input fails or yields non-finite cholesky. ... ok
+test_rank_greater_than_two_raises (__main__.TestAsNoiseCholTF.test_rank_greater_than_two_raises)
+Checks sigma input with rank greater than 2 raises ValueError. ... ok
+test_scalar_sigma_nonpositive_raises (__main__.TestAsNoiseCholTF.test_scalar_sigma_nonpositive_raises)
+Checks scalar std must be positive. ... ok
+test_scalar_sigma_returns_scaled_identity (__main__.TestAsNoiseCholTF.test_scalar_sigma_returns_scaled_identity)
+Checks scalar std produces a scaled identity cholesky factor. ... ok
+test_vector_sigma_nonpositive_entry_raises (__main__.TestAsNoiseCholTF.test_vector_sigma_nonpositive_entry_raises)
+Checks all vector std entries must be positive. ... ok
+test_vector_sigma_returns_diagonal_cholesky (__main__.TestAsNoiseCholTF.test_vector_sigma_returns_diagonal_cholesky)
+Checks vector stds produce a diagonal cholesky factor. ... ok
+test_vector_sigma_wrong_length_raises (__main__.TestAsNoiseCholTF.test_vector_sigma_wrong_length_raises)
+Checks sigma vector must have length d. ... ok
+test_diagonal_case_matches_closed_form (__main__.TestStationaryCovarianceAR1TF.test_diagonal_case_matches_closed_form)
+Checks diagonal Phi gives diagonal stationary covariance with closed-form entries. ... ok
+test_output_is_symmetric_and_finite (__main__.TestStationaryCovarianceAR1TF.test_output_is_symmetric_and_finite)
+Checks the returned stationary covariance is finite and symmetric. ... ok
+test_solution_satisfies_discrete_lyapunov_equation (__main__.TestStationaryCovarianceAR1TF.test_solution_satisfies_discrete_lyapunov_equation)
+Checks P solves P = Phi P Phi' + Q. ... ok
+test_univariate_matches_closed_form (__main__.TestStationaryCovarianceAR1TF.test_univariate_matches_closed_form)
+Checks the univariate stationary covariance matches Q / (1 - phi^2). ... ok
+test_unstable_system_may_fail_solve (__main__.TestStationaryCovarianceAR1TF.test_unstable_system_may_fail_solve)
+Checks singular I - Phi⊗Phi can fail for unit-root systems. ... ok
+test_invalid_phi_vector_length_raises (__main__.TestMakePropSV.test_invalid_phi_vector_length_raises)
+Checks phi vector length mismatch causes an error. ... ok
+test_invalid_sigma_vector_length_raises (__main__.TestMakePropSV.test_invalid_sigma_vector_length_raises)
+Checks sigma_eta vector length mismatch causes an error. ... ok
+test_multivariate_matrix_sigma (__main__.TestMakePropSV.test_multivariate_matrix_sigma)
+Checks multivariate propagation works with correlated state noise. ... ok
+test_multivariate_scalar_phi_scalar_sigma (__main__.TestMakePropSV.test_multivariate_scalar_phi_scalar_sigma)
+Checks multivariate propagation works with scalar phi and scalar sigma_eta. ... ok
+test_multivariate_vector_phi_vector_sigma (__main__.TestMakePropSV.test_multivariate_vector_phi_vector_sigma)
+Checks multivariate propagation works with vector phi and vector sigma_eta. ... ok
+test_nonpositive_sigma_scalar_raises (__main__.TestMakePropSV.test_nonpositive_sigma_scalar_raises)
+Checks scalar sigma_eta must be positive. ... ok
+test_nonpositive_sigma_vector_entry_raises (__main__.TestMakePropSV.test_nonpositive_sigma_vector_entry_raises)
+Checks all sigma_eta vector entries must be positive. ... ok
+test_output_is_not_equal_to_input_when_noise_present (__main__.TestMakePropSV.test_output_is_not_equal_to_input_when_noise_present)
+Checks propagation changes the state when nonzero noise is present. ... ok
+test_rank_two_input_raises (__main__.TestMakePropSV.test_rank_two_input_raises)
+Checks state input must have rank 1. ... ok
+test_returns_callable (__main__.TestMakePropSV.test_returns_callable)
+Checks the factory returns a callable propagation function. ... ok
+test_univariate_output_shape_and_dtype (__main__.TestMakePropSV.test_univariate_output_shape_and_dtype)
+Checks univariate propagation returns a finite vector of shape (1,). ... ok
+test_unstable_matrix_phi_raises (__main__.TestMakePropSV.test_unstable_matrix_phi_raises)
+Checks matrix phi must be stable. ... ok
+test_unstable_scalar_phi_raises (__main__.TestMakePropSV.test_unstable_scalar_phi_raises)
+Checks scalar phi must satisfy |phi| < 1. ... ok
+test_unstable_vector_phi_raises (__main__.TestMakePropSV.test_unstable_vector_phi_raises)
+Checks all phi vector entries must satisfy |phi_i| < 1. ... ok
+test_extreme_particles_still_return_finite_when_valid (__main__.TestMakeLoglikSV.test_extreme_particles_still_return_finite_when_valid)
+Checks moderately large but valid particles still give finite output. ... ok
+test_known_univariate_value_matches_manual_formula (__main__.TestMakeLoglikSV.test_known_univariate_value_matches_manual_formula)
+Checks the univariate log-likelihood matches the manual Gaussian formula. ... ok
+test_multivariate_output_shape_and_dtype (__main__.TestMakeLoglikSV.test_multivariate_output_shape_and_dtype)
+Checks multivariate log-likelihood returns one value per particle. ... ok
+test_particles_rank_not_two_raises (__main__.TestMakeLoglikSV.test_particles_rank_not_two_raises)
+Checks particles input must have rank 2. ... ok
+test_returns_callable (__main__.TestMakeLoglikSV.test_returns_callable)
+Checks the factory returns a callable log-likelihood function. ... ok
+test_scalar_parameters_broadcast_across_dimensions (__main__.TestMakeLoglikSV.test_scalar_parameters_broadcast_across_dimensions)
+Checks scalar sigma_eps and xi broadcast correctly in multivariate settings. ... ok
+test_sigma_eps_nonpositive_scalar_raises (__main__.TestMakeLoglikSV.test_sigma_eps_nonpositive_scalar_raises)
+Checks scalar sigma_eps must be strictly positive. ... ok
+test_sigma_eps_nonpositive_vector_entry_raises (__main__.TestMakeLoglikSV.test_sigma_eps_nonpositive_vector_entry_raises)
+Checks all sigma_eps vector entries must be strictly positive. ... ok
+test_sigma_eps_wrong_length_raises (__main__.TestMakeLoglikSV.test_sigma_eps_wrong_length_raises)
+Checks sigma_eps vector length mismatch causes an error. ... ok
+test_univariate_output_shape_and_dtype (__main__.TestMakeLoglikSV.test_univariate_output_shape_and_dtype)
+Checks univariate log-likelihood returns shape (Np,) with finite values. ... ok
+test_xi_nonpositive_scalar_raises (__main__.TestMakeLoglikSV.test_xi_nonpositive_scalar_raises)
+Checks scalar xi must be strictly positive. ... ok
+test_xi_nonpositive_vector_entry_raises (__main__.TestMakeLoglikSV.test_xi_nonpositive_vector_entry_raises)
+Checks all xi vector entries must be strictly positive. ... ok
+test_xi_wrong_length_raises (__main__.TestMakeLoglikSV.test_xi_wrong_length_raises)
+Checks xi vector length mismatch causes an error. ... ok
+test_y_dimension_mismatch_raises (__main__.TestMakeLoglikSV.test_y_dimension_mismatch_raises)
+Checks y dimension must match the particle dimension. ... ok
+test_y_rank_not_one_raises (__main__.TestMakeLoglikSV.test_y_rank_not_one_raises)
+Checks y input must have rank 1. ... ok
+test_covariance_structure (__main__.TestUKFPredict.test_covariance_structure) ... ok
+test_deterministic (__main__.TestUKFPredict.test_deterministic) ... ok
+test_nonlinear_dynamics (__main__.TestUKFPredict.test_nonlinear_dynamics) ... ok
+test_shapes_and_finite (__main__.TestUKFPredict.test_shapes_and_finite) ... ok
+test_covariance_reasonable (__main__.TestUnscentedTransform.test_covariance_reasonable) ... ok
+test_covariance_reconstruction (__main__.TestUnscentedTransform.test_covariance_reconstruction) ... ok
+test_deterministic (__main__.TestUnscentedTransform.test_deterministic) ... ok
+test_finite_outputs (__main__.TestUnscentedTransform.test_finite_outputs) ... ok
+test_mean_reconstruction (__main__.TestUnscentedTransform.test_mean_reconstruction) ... ok
+test_noise_addition (__main__.TestUnscentedTransform.test_noise_addition) ... ok
+test_shapes (__main__.TestUnscentedTransform.test_shapes) ... ok
+test_covariance_properties (__main__.TestUKFUpdate.test_covariance_properties) ... ok
+test_covariance_stability (__main__.TestUKFUpdate.test_covariance_stability) ... ok
+test_deterministic (__main__.TestUKFUpdate.test_deterministic) ... ok
+test_non_finite_input_raises (__main__.TestUKFUpdate.test_non_finite_input_raises) ... ok
+test_non_positive_definite_raises (__main__.TestUKFUpdate.test_non_positive_definite_raises) ... ok
+test_nonlinear_measurement (__main__.TestUKFUpdate.test_nonlinear_measurement) ... ok
+test_outputs_are_finite (__main__.TestUKFUpdate.test_outputs_are_finite) ... ok
+test_shapes_and_dtypes (__main__.TestUKFUpdate.test_shapes_and_dtypes) ... ok
+test_state_update_effect (__main__.TestUKFUpdate.test_state_update_effect) ... ok
+test_shapes (__main__.TestUnscentedSigmaPoints.test_shapes) ... ok
+test_finite (__main__.TestSigmaPointsBatch.test_finite) ... ok
+test_mean_reconstruction (__main__.TestSigmaPointsBatch.test_mean_reconstruction) ... ok
+test_particle_shift_invariance (__main__.TestSigmaPointsBatch.test_particle_shift_invariance) ... ok
+test_shapes (__main__.TestSigmaPointsBatch.test_shapes) ... ok
+test_sigma_symmetry (__main__.TestSigmaPointsBatch.test_sigma_symmetry) ... ok
+test_weights (__main__.TestSigmaPointsBatch.test_weights) ... ok
+test_output_shapes (__main__.TestMultinomialResampling.test_output_shapes) ... ok
+test_outputs_are_finite (__main__.TestMultinomialResampling.test_outputs_are_finite) ... ok
+test_particle_shape_preserved (__main__.TestMultinomialResampling.test_particle_shape_preserved) ... ok
+test_uniform_weights_after_resampling (__main__.TestMultinomialResampling.test_uniform_weights_after_resampling) ... ok
+test_weight_shape_preserved (__main__.TestMultinomialResampling.test_weight_shape_preserved) ... ok
+test_weights_normalization (__main__.TestMultinomialResampling.test_weights_normalization) ... ok
+
+----------------------------------------------------------------------
+Ran 112 tests in 4.383s
+
+OK
+
+============================================================
+ALL TESTS PASSED: True
+TOTAL TESTS: 112
+FAILURES: 0
+ERRORS: 0
+============================================================

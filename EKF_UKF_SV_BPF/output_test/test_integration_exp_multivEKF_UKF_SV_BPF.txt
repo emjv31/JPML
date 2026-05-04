@@ -1,0 +1,42 @@
+test_arguments_are_forwarded_to_bpf (__main__.TestRunBPFMCForFixedN.test_arguments_are_forwarded_to_bpf)
+Checks wrapper forwards arguments to the inner BPF. ... ok
+test_bias_and_rmse_are_zero_when_estimates_match_truth (__main__.TestRunBPFMCForFixedN.test_bias_and_rmse_are_zero_when_estimates_match_truth)
+Checks bias and RMSE are numerically zero when every replication matches the true state. ... ok
+test_ess_normalization_and_summary_stats (__main__.TestRunBPFMCForFixedN.test_ess_normalization_and_summary_stats)
+Checks ESS normalization and scalar summaries are computed correctly. ... ok
+test_output_structure_and_shapes_multivariate (__main__.TestRunBPFMCForFixedN.test_output_structure_and_shapes_multivariate)
+Checks aggregated outputs have the expected keys, shapes, and finite values. ... ok
+test_univariate_h_is_expanded (__main__.TestRunBPFMCForFixedN.test_univariate_h_is_expanded)
+Checks rank-1 h_true is expanded internally and produces (T,1) bias/RMSE. ... ok
+test_arguments_are_forwarded (__main__.TestRunBPFSVPipelineExperiments.test_arguments_are_forwarded)
+Checks all experiment settings are forwarded to the inner experiment runner. ... ok
+test_empty_grids_return_empty_dict (__main__.TestRunBPFSVPipelineExperiments.test_empty_grids_return_empty_dict)
+Checks empty parameter grids produce an empty output dictionary. ... ok
+test_output_keys_cover_full_grid (__main__.TestRunBPFSVPipelineExperiments.test_output_keys_cover_full_grid)
+Checks results are returned for every (d, phi, sigma_eps) combination. ... ok
+test_results_are_stored_per_configuration (__main__.TestRunBPFSVPipelineExperiments.test_results_are_stored_per_configuration)
+Checks each configuration stores its own returned result object. ... ok
+test_basic_output_structure (__main__.TestCompareMethodsOneConfig.test_basic_output_structure)
+Checks the pipeline returns the expected top-level structure and expanded simulated shapes. ... ok
+test_benchmark_call_count (__main__.TestCompareMethodsOneConfig.test_benchmark_call_count)
+Checks benchmark_cpu is called once per BPF particle size and once per KF method. ... ok
+test_simulator_called_once (__main__.TestCompareMethodsOneConfig.test_simulator_called_once)
+Checks the simulator is called once with dtype float64. ... ok
+test_small_config_loop (__main__.TestConfigIntegration.test_small_config_loop) ... ok
+test_small_results_all (__main__.TestResultsAllIntegration.test_small_results_all) ... ok
+test_default_methods_output_structure (__main__.TestRunKfExperimentsMultivariate.test_default_methods_output_structure) ... ok
+test_methods_argument_runs_only_requested_methods (__main__.TestRunKfExperimentsMultivariate.test_methods_argument_runs_only_requested_methods) ... ok
+test_rejects_non_2d_inputs (__main__.TestRunKfExperimentsMultivariate.test_rejects_non_2d_inputs) ... ok
+test_plots_run_on_real_small_results (__main__.TestPlotFunctionsIntegration.test_plots_run_on_real_small_results) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 23.257s
+
+OK
+
+============================================================
+ALL TESTS PASSED: True
+TOTAL TESTS: 18
+FAILURES: 0
+ERRORS: 0
+============================================================

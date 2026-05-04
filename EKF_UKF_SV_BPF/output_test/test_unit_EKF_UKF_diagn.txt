@@ -1,0 +1,161 @@
+test_basic_run_ekf (__main__.TestEKFUKFUnivariate.test_basic_run_ekf) ... ok
+test_basic_run_ukf (__main__.TestEKFUKFUnivariate.test_basic_run_ukf) ... ok
+test_ekf_bad_geometry_raises_when_stop_on_failure_true (__main__.TestEKFUKFUnivariate.test_ekf_bad_geometry_raises_when_stop_on_failure_true) ... ok
+test_ekf_bad_geometry_recorded_when_stop_on_failure_false (__main__.TestEKFUKFUnivariate.test_ekf_bad_geometry_recorded_when_stop_on_failure_false) ... ok
+test_explicit_jacobians_are_used_in_ekf (__main__.TestEKFUKFUnivariate.test_explicit_jacobians_are_used_in_ekf) ... ok
+test_invalid_innovation_variance_raises (__main__.TestEKFUKFUnivariate.test_invalid_innovation_variance_raises) ... ok
+test_invalid_method_raises (__main__.TestEKFUKFUnivariate.test_invalid_method_raises) ... ok
+test_invalid_predicted_variance_raises (__main__.TestEKFUKFUnivariate.test_invalid_predicted_variance_raises) ... ok
+test_invalid_y_shape_or_length_raises (__main__.TestEKFUKFUnivariate.test_invalid_y_shape_or_length_raises) ... ok
+test_noncallable_functions_raise (__main__.TestEKFUKFUnivariate.test_noncallable_functions_raise) ... ok
+test_nonfinite_scalar_inputs_raise (__main__.TestEKFUKFUnivariate.test_nonfinite_scalar_inputs_raise) ... ok
+test_nonfinite_ukf_observation_mapping_raises (__main__.TestEKFUKFUnivariate.test_nonfinite_ukf_observation_mapping_raises) ... ok
+test_nonfinite_ukf_prediction_raises (__main__.TestEKFUKFUnivariate.test_nonfinite_ukf_prediction_raises) ... ok
+test_nonfinite_y_raises (__main__.TestEKFUKFUnivariate.test_nonfinite_y_raises) ... ok
+test_nonpositive_variances_raise (__main__.TestEKFUKFUnivariate.test_nonpositive_variances_raise) ... ok
+test_nonscalar_inputs_raise (__main__.TestEKFUKFUnivariate.test_nonscalar_inputs_raise) ... ok
+test_numpy_input_conversion (__main__.TestEKFUKFUnivariate.test_numpy_input_conversion) ... ok
+test_return_diagnostics_ekf (__main__.TestEKFUKFUnivariate.test_return_diagnostics_ekf) ... ok
+test_return_diagnostics_ukf (__main__.TestEKFUKFUnivariate.test_return_diagnostics_ukf) ... ok
+test_ukf_bad_flag_is_union_of_geom_and_sigma_flags (__main__.TestEKFUKFUnivariate.test_ukf_bad_flag_is_union_of_geom_and_sigma_flags) ... ok
+test_ukf_sigma_degeneracy_raises_when_stop_on_failure_true (__main__.TestEKFUKFUnivariate.test_ukf_sigma_degeneracy_raises_when_stop_on_failure_true) ... ok
+test_ukf_sigma_degeneracy_recorded_when_stop_on_failure_false (__main__.TestEKFUKFUnivariate.test_ukf_sigma_degeneracy_recorded_when_stop_on_failure_false) ... ok
+test_approximate_match_within_tolerance_returns_key (__main__.TestFindBadPair.test_approximate_match_within_tolerance_returns_key)
+Checks a numerically close pair is matched when inside the tolerance. ... ok
+test_exact_match_returns_key (__main__.TestFindBadPair.test_exact_match_returns_key)
+Checks an exact pair lookup returns the stored key. ... ok
+test_no_match_raises_keyerror (__main__.TestFindBadPair.test_no_match_raises_keyerror)
+Checks lookup raises KeyError when no pair is close enough. ... ok
+test_tolerance_too_small_raises_keyerror (__main__.TestFindBadPair.test_tolerance_too_small_raises_keyerror)
+Checks a near pair does not match when tolerance is too strict. ... ok
+test_correct_value (__main__.TestJacobian.test_correct_value)
+TestJacobian.test_correct_value ... ok
+test_non_finite_input_raises (__main__.TestJacobian.test_non_finite_input_raises)
+TestJacobian.test_non_finite_input_raises ... ok
+test_scalar_output_and_dtype (__main__.TestJacobian.test_scalar_output_and_dtype)
+TestJacobian.test_scalar_output_and_dtype ... ok
+test_session (__main__.TestJacobian.test_session)
+TestJacobian.test_session
+Use cached_session instead. (deprecated) ... skipped 'Not a test.'
+test_zero_derivative_raises (__main__.TestJacobian.test_zero_derivative_raises)
+TestJacobian.test_zero_derivative_raises ... ok
+test_function_values_match_definition (__main__.TestMakeQuadraticModelComponents.test_function_values_match_definition)
+Checks component functions match the quadratic model formulas. ... ok
+test_jf_is_constant_in_x (__main__.TestMakeQuadraticModelComponents.test_jf_is_constant_in_x)
+Checks jf_fun returns phi regardless of the input value. ... ok
+test_jh_changes_with_x (__main__.TestMakeQuadraticModelComponents.test_jh_changes_with_x)
+Checks jh_fun depends on x according to 2x/5. ... ok
+test_output_structure (__main__.TestMakeQuadraticModelComponents.test_output_structure)
+Checks returned object is a dict with the expected callable entries. ... ok
+test_axes_titles_and_labels_are_correct (__main__.TestPlotBadACF.test_axes_titles_and_labels_are_correct) ... ok
+test_legends_are_present_for_both_axes (__main__.TestPlotBadACF.test_legends_are_present_for_both_axes) ... ok
+test_nlags_zero_runs (__main__.TestPlotBadACF.test_nlags_zero_runs) ... ok
+test_no_selected_configs_available_raises (__main__.TestPlotBadACF.test_no_selected_configs_available_raises) ... ok
+test_plot_runs_and_creates_two_axes (__main__.TestPlotBadACF.test_plot_runs_and_creates_two_axes) ... ok
+test_prints_available_and_used_configurations (__main__.TestPlotBadACF.test_prints_available_and_used_configurations) ... ok
+test_prints_bad_counts_and_fractions (__main__.TestPlotBadACF.test_prints_bad_counts_and_fractions) ... ok
+test_selected_configs_drive_number_of_legend_entries (__main__.TestPlotBadACF.test_selected_configs_drive_number_of_legend_entries) ... ok
+test_suptitle_exists (__main__.TestPlotBadACF.test_suptitle_exists) ... ok
+test_unavailable_selected_config_is_skipped_if_others_exist (__main__.TestPlotBadACF.test_unavailable_selected_config_is_skipped_if_others_exist) ... ok
+test_axes_titles_and_labels_are_correct (__main__.TestPlotBadPACF.test_axes_titles_and_labels_are_correct) ... ok
+test_close_after_save_closes_figure (__main__.TestPlotBadPACF.test_close_after_save_closes_figure) ... ok
+test_close_after_save_false_keeps_figure_open (__main__.TestPlotBadPACF.test_close_after_save_false_keeps_figure_open) ... ok
+test_legends_are_present_for_both_axes (__main__.TestPlotBadPACF.test_legends_are_present_for_both_axes) ... ok
+test_nlags_zero_runs (__main__.TestPlotBadPACF.test_nlags_zero_runs) ... ok
+test_no_selected_configs_available_raises (__main__.TestPlotBadPACF.test_no_selected_configs_available_raises) ... ok
+test_plot_runs_and_creates_two_axes (__main__.TestPlotBadPACF.test_plot_runs_and_creates_two_axes) ... ok
+test_prints_available_and_used_configurations (__main__.TestPlotBadPACF.test_prints_available_and_used_configurations) ... ok
+test_prints_bad_counts_and_fractions (__main__.TestPlotBadPACF.test_prints_bad_counts_and_fractions) ... ok
+test_returns_figure_and_axes (__main__.TestPlotBadPACF.test_returns_figure_and_axes) ... ok
+test_save_true_prints_save_path (__main__.TestPlotBadPACF.test_save_true_prints_save_path) ... ok
+test_save_true_writes_figure (__main__.TestPlotBadPACF.test_save_true_writes_figure) ... ok
+test_selected_configs_drive_number_of_legend_entries (__main__.TestPlotBadPACF.test_selected_configs_drive_number_of_legend_entries) ... ok
+test_suptitle_exists (__main__.TestPlotBadPACF.test_suptitle_exists) ... ok
+test_unavailable_selected_config_is_skipped_if_others_exist (__main__.TestPlotBadPACF.test_unavailable_selected_config_is_skipped_if_others_exist) ... ok
+test_missing_required_column_raises (__main__.TestPrintSummaryStats.test_missing_required_column_raises)
+Checks the summary function fails when a required metric column is absent. ... ok
+test_prints_summary_table (__main__.TestPrintSummaryStats.test_prints_summary_table)
+Checks the summary function prints descriptive statistics for the expected columns. ... ok
+test_dataframe_and_store_have_expected_size (__main__.TestQuadraticHeatmapAnalysisIntegration.test_dataframe_and_store_have_expected_size)
+Checks the real pipeline returns one result per grid pair. ... ok
+test_dataframe_has_expected_columns_and_finite_values (__main__.TestQuadraticHeatmapAnalysisIntegration.test_dataframe_has_expected_columns_and_finite_values)
+Checks the summary DataFrame has the expected columns and finite numeric values. ... ok
+test_diagnostics_store_has_expected_structure (__main__.TestQuadraticHeatmapAnalysisIntegration.test_diagnostics_store_has_expected_structure)
+Checks each diagnostics entry contains simulation output and both filters. ... ok
+test_find_bad_pair_missing_raises (__main__.TestQuadraticHeatmapAnalysisIntegration.test_find_bad_pair_missing_raises)
+Checks missing parameter pairs raise KeyError. ... ok
+test_find_bad_pair_returns_existing_key (__main__.TestQuadraticHeatmapAnalysisIntegration.test_find_bad_pair_returns_existing_key)
+Checks exact existing parameter pairs are recovered from diagnostics_store. ... ok
+test_acf_plot_runs_on_real_selected_configs (__main__.TestQuadraticPlotsIntegration.test_acf_plot_runs_on_real_selected_configs)
+Checks ACF plot runs on real diagnostics output. ... ok
+test_pacf_plot_runs_on_real_selected_configs (__main__.TestQuadraticPlotsIntegration.test_pacf_plot_runs_on_real_selected_configs)
+Checks PACF plot runs on real diagnostics output. ... ok
+test_summary_and_dataframe_plots_run (__main__.TestQuadraticPlotsIntegration.test_summary_and_dataframe_plots_run)
+Checks summary/heatmap plots run on real pipeline output. ... ok
+test_dataframe_and_store_have_matching_pairs (__main__.TestRunHeatmapAnalysis.test_dataframe_and_store_have_matching_pairs)
+Checks every row in the DataFrame corresponds to an entry in the diagnostics store. ... ok
+test_dataframe_columns_exist (__main__.TestRunHeatmapAnalysis.test_dataframe_columns_exist)
+Checks the returned DataFrame contains the expected analysis columns. ... ok
+test_dataframe_values_are_finite (__main__.TestRunHeatmapAnalysis.test_dataframe_values_are_finite)
+Checks all numeric analysis outputs in the DataFrame are finite. ... ok
+test_diagnostics_store_structure (__main__.TestRunHeatmapAnalysis.test_diagnostics_store_structure)
+Checks each diagnostics entry contains x, y, ekf, and ukf with valid tensors. ... ok
+test_fraction_columns_are_in_unit_interval (__main__.TestRunHeatmapAnalysis.test_fraction_columns_are_in_unit_interval)
+Checks bad-event fractions lie between 0 and 1. ... ok
+test_output_types_and_sizes (__main__.TestRunHeatmapAnalysis.test_output_types_and_sizes)
+Checks analysis returns a DataFrame and diagnostics store with expected sizes. ... ok
+test_reproducibility_with_same_seed (__main__.TestRunHeatmapAnalysis.test_reproducibility_with_same_seed)
+Checks heatmap analysis is reproducible with the same seed. ... ok
+test_rmse_columns_are_nonnegative (__main__.TestRunHeatmapAnalysis.test_rmse_columns_are_nonnegative)
+Checks RMSE columns are finite and nonnegative. ... ok
+test_store_keys_match_grid (__main__.TestRunHeatmapAnalysis.test_store_keys_match_grid)
+Checks diagnostics store keys exactly match the parameter grid pairs. ... ok
+test_all_outputs_finite (__main__.TestSigmaPointsTF.test_all_outputs_finite)
+TestSigmaPointsTF.test_all_outputs_finite
+Ensure all outputs are finite. ... ok
+test_covariance_reconstruction (__main__.TestSigmaPointsTF.test_covariance_reconstruction)
+TestSigmaPointsTF.test_covariance_reconstruction ... ok
+test_invalid_P_raises (__main__.TestSigmaPointsTF.test_invalid_P_raises)
+TestSigmaPointsTF.test_invalid_P_raises
+Negative covariance should raise ValueError. ... ok
+test_nonfinite_mu_raises (__main__.TestSigmaPointsTF.test_nonfinite_mu_raises)
+TestSigmaPointsTF.test_nonfinite_mu_raises
+Non-finite mean should raise ValueError. ... ok
+test_output_shapes (__main__.TestSigmaPointsTF.test_output_shapes)
+TestSigmaPointsTF.test_output_shapes
+Check output shapes (assuming univariate sigma points, n=1). ... ok
+test_output_structure_and_types (__main__.TestSigmaPointsTF.test_output_structure_and_types)
+TestSigmaPointsTF.test_output_structure_and_types
+Check dictionary keys, tensor types, and dtypes. ... ok
+test_session (__main__.TestSigmaPointsTF.test_session)
+TestSigmaPointsTF.test_session
+Use cached_session instead. (deprecated) ... skipped 'Not a test.'
+test_sigma_spread_positive (__main__.TestSigmaPointsTF.test_sigma_spread_positive)
+TestSigmaPointsTF.test_sigma_spread_positive
+Ensure sigma points spread and are not collapsing ... ok
+test_small_P_degeneracy (__main__.TestSigmaPointsTF.test_small_P_degeneracy)
+TestSigmaPointsTF.test_small_P_degeneracy
+Very small P should raise a ValueError due to numerical collapse ... ok
+test_weighted_mean_recovers_mu (__main__.TestSigmaPointsTF.test_weighted_mean_recovers_mu)
+TestSigmaPointsTF.test_weighted_mean_recovers_mu
+Check that the weighted mean of sigma points equals the input mean. ... ok
+test_weights_sum_and_symmetry (__main__.TestSigmaPointsTF.test_weights_sum_and_symmetry)
+TestSigmaPointsTF.test_weights_sum_and_symmetry
+Mean weights sum to 1 and off-center weights are symmetric ... ok
+test_T_equal_1_runs (__main__.TestSimulateQuadraticModel.test_T_equal_1_runs)
+Checks simulator handles the minimal valid length T=1. ... ok
+test_different_seeds_give_different_output (__main__.TestSimulateQuadraticModel.test_different_seeds_give_different_output)
+Checks changing the seed changes simulated latent or observed paths. ... ok
+test_invalid_T_raises (__main__.TestSimulateQuadraticModel.test_invalid_T_raises)
+Checks invalid T values raise an exception. ... ok
+test_nondegenerate_output (__main__.TestSimulateQuadraticModel.test_nondegenerate_output)
+Checks x and y are not constant on a typical valid configuration. ... ok
+test_output_structure_and_shape (__main__.TestSimulateQuadraticModel.test_output_structure_and_shape)
+Checks simulator returns dict with finite x and y of shape (T,). ... ok
+test_same_seed_gives_same_output (__main__.TestSimulateQuadraticModel.test_same_seed_gives_same_output)
+Checks simulator is reproducible for fixed seed and parameters. ... ok
+
+----------------------------------------------------------------------
+Ran 96 tests in 46.016s
+
+OK (skipped=2)

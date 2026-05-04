@@ -1,0 +1,28 @@
+test_input_rank_expansion (__main__.TestComputeBiasRMSE.test_input_rank_expansion)
+Checks rank-1 h_true and rank-2 est_mc are expanded consistently. ... ok
+test_multivariate_shapes_and_values (__main__.TestComputeBiasRMSE.test_multivariate_shapes_and_values)
+Checks multivariate bias and RMSE match manual values. ... ok
+test_outputs_are_finite (__main__.TestComputeBiasRMSE.test_outputs_are_finite)
+Checks outputs are finite for valid finite inputs. ... ok
+test_univariate_shapes_and_values (__main__.TestComputeBiasRMSE.test_univariate_shapes_and_values)
+Checks univariate bias and RMSE match manual values. ... ok
+test_basic_run (__main__.TestBenchmarkCPU.test_basic_run) ... ok
+test_plot_benchmark_grouped_runs (__main__.TestPlotFunctionsUnit.test_plot_benchmark_grouped_runs) ... ok
+test_plot_ess_heatmap_bad_config_raises (__main__.TestPlotFunctionsUnit.test_plot_ess_heatmap_bad_config_raises) ... ok
+test_plot_ess_heatmap_runs (__main__.TestPlotFunctionsUnit.test_plot_ess_heatmap_runs) ... ok
+test_plot_metric_bad_reduce_mode (__main__.TestPlotFunctionsUnit.test_plot_metric_bad_reduce_mode) ... ok
+test_plot_metric_over_time_runs (__main__.TestPlotFunctionsUnit.test_plot_metric_over_time_runs) ... ok
+test_plot_rmse_bad_config (__main__.TestPlotFunctionsUnit.test_plot_rmse_bad_config) ... ok
+test_plot_rmse_over_dimension_runs (__main__.TestPlotFunctionsUnit.test_plot_rmse_over_dimension_runs) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.160s
+
+OK
+
+============================================================
+ALL TESTS PASSED: True
+TOTAL TESTS: 12
+FAILURES: 0
+ERRORS: 0
+============================================================

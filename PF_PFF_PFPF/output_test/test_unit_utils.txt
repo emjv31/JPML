@@ -1,0 +1,19 @@
+test_identity_matrix (test_all.TestComputeSpectralNorm.test_identity_matrix) ... ok
+test_output_finite (test_all.TestComputeSpectralNorm.test_output_finite) ... ok
+test_runs (test_all.TestComputeSpectralNorm.test_runs) ... ok
+test_wrong_shape (test_all.TestComputeSpectralNorm.test_wrong_shape) ... ok
+test_basic_properties (test_all.TestMakeBetaSchedule.test_basic_properties) ... ok
+test_geometric_ratio (test_all.TestMakeBetaSchedule.test_geometric_ratio) ... ok
+test_integer_N_lambda (test_all.TestMakeBetaSchedule.test_integer_N_lambda) ... ok
+test_q_close_to_one (test_all.TestMakeBetaSchedule.test_q_close_to_one) ... ok
+test_q_equal_one_is_singular (test_all.TestMakeBetaSchedule.test_q_equal_one_is_singular) ... ok
+test_single_step (test_all.TestMakeBetaSchedule.test_single_step) ... ok
+test_cross_distance (test_all.TestPairwiseDistance.test_cross_distance) ... ok
+test_non_negative (test_all.TestPairwiseDistance.test_non_negative) ... ok
+test_squared_distance (test_all.TestPairwiseDistance.test_squared_distance) ... ok
+test_unsquared_distance (test_all.TestPairwiseDistance.test_unsquared_distance) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.102s
+
+OK

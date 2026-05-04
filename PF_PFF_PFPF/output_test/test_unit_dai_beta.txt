@@ -1,0 +1,19 @@
+test_R_invalid (test_all.TestComputeH.test_R_invalid) ... ok
+test_input_shapes (test_all.TestComputeH.test_input_shapes) ... ok
+test_symmetry (test_all.TestComputeH.test_symmetry) ... ok
+test_valid (test_all.TestComputeH.test_valid) ... ok
+test_H_wrong_shape (test_all.TestComputeJ.test_H_wrong_shape) ... ok
+test_Q_wrong_shape (test_all.TestComputeJ.test_Q_wrong_shape) ... ok
+test_beta_not_tensor (test_all.TestComputeJ.test_beta_not_tensor) ... ok
+test_beta_too_short (test_all.TestComputeJ.test_beta_too_short) ... ok
+test_beta_wrong_rank (test_all.TestComputeJ.test_beta_wrong_rank) ... ok
+test_singular_matrix (test_all.TestComputeJ.test_singular_matrix) ... ok
+test_valid (test_all.TestComputeJ.test_valid) ... ok
+test_zero_beta_gradient (test_all.TestComputeJ.test_zero_beta_gradient) ... ok
+test_optimization_improves_loss (test_all.TestOptimBeta.test_optimization_improves_loss) ... ok
+test_optimize_beta_basic (test_all.TestOptimBeta.test_optimize_beta_basic) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 2.229s
+
+OK

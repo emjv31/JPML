@@ -1,0 +1,55 @@
+test_invalid_sigma_raises (test_all.TestSimHDLGSSM.test_invalid_sigma_raises) ... skipped 'Abstract base class'
+test_reproducibility (test_all.TestSimHDLGSSM.test_reproducibility) ... skipped 'Abstract base class'
+test_simulation_valid (test_all.TestSimHDLGSSM.test_simulation_valid) ... skipped 'Abstract base class'
+test_invalid_parameters_raises (test_all.TestSimSkewTPoisson.test_invalid_parameters_raises) ... skipped 'Abstract base class'
+test_poisson_properties (test_all.TestSimSkewTPoisson.test_poisson_properties) ... skipped 'Abstract base class'
+test_reproducibility (test_all.TestSimSkewTPoisson.test_reproducibility) ... skipped 'Abstract base class'
+test_simulation_valid (test_all.TestSimSkewTPoisson.test_simulation_valid) ... skipped 'Abstract base class'
+test_vector_gamma_runs (test_all.TestSimSkewTPoisson.test_vector_gamma_runs) ... skipped 'Abstract base class'
+test_accepts_integer_like_dimension (test_all.TestComputeSigma.test_accepts_integer_like_dimension) ... ok
+test_diagonal_is_alpha0_plus_alpha1 (test_all.TestComputeSigma.test_diagonal_is_alpha0_plus_alpha1) ... ok
+test_invalid_dimension_raises (test_all.TestComputeSigma.test_invalid_dimension_raises) ... ok
+test_matrix_is_symmetric (test_all.TestComputeSigma.test_matrix_is_symmetric) ... ok
+test_output_shape_dtype_and_finite (test_all.TestComputeSigma.test_output_shape_dtype_and_finite) ... ok
+test_positive_diagonal_and_positive_entries (test_all.TestComputeSigma.test_positive_diagonal_and_positive_entries) ... ok
+test_F_jac (test_all.TestJacobiansEKF.test_F_jac) ... ok
+test_F_jac_t (test_all.TestJacobiansEKF.test_F_jac_t) ... skipped 'Outdated test: F_jac_t uses alpha from current model setup'
+test_H_jac (test_all.TestJacobiansEKF.test_H_jac) ... ok
+test_H_jac_t (test_all.TestJacobiansEKF.test_H_jac_t) ... ok
+test_loglik_gaussian (test_all.TestLogLikelihood.test_loglik_gaussian) ... ok
+test_loglik_poisson (test_all.TestLogLikelihood.test_loglik_poisson) ... ok
+test_loglik_poisson_stability (test_all.TestLogLikelihood.test_loglik_poisson_stability) ... ok
+test_prop_gh_skewed_t_accepts_scalar_and_vector_gamma (test_all.TestPropagationFcts.test_prop_gh_skewed_t_accepts_scalar_and_vector_gamma) ... ok
+test_prop_gh_skewed_t_reproducible_with_seed_reset (test_all.TestPropagationFcts.test_prop_gh_skewed_t_reproducible_with_seed_reset) ... ok
+test_prop_gh_skewed_t_scalar_and_vector_gamma_same_shape (test_all.TestPropagationFcts.test_prop_gh_skewed_t_scalar_and_vector_gamma_same_shape) ... ok
+test_prop_gh_skewed_t_scalar_gamma_output_validity (test_all.TestPropagationFcts.test_prop_gh_skewed_t_scalar_gamma_output_validity) ... ok
+test_prop_gh_skewed_t_vector_gamma_output_validity (test_all.TestPropagationFcts.test_prop_gh_skewed_t_vector_gamma_output_validity) ... ok
+test_prop_linear_gaussian_output_validity (test_all.TestPropagationFcts.test_prop_linear_gaussian_output_validity) ... ok
+test_prop_linear_gaussian_reproducible_with_seed_reset (test_all.TestPropagationFcts.test_prop_linear_gaussian_reproducible_with_seed_reset) ... ok
+test_prop_linear_gaussian_respects_dtype (test_all.TestPropagationFcts.test_prop_linear_gaussian_respects_dtype) ... ok
+test_prop_linear_gaussian_zero_dynamics_zero_noise (test_all.TestPropagationFcts.test_prop_linear_gaussian_zero_dynamics_zero_noise) ... ok
+test_sigma_is_symmetric_and_psd (test_all.TestPropagationFcts.test_sigma_is_symmetric_and_psd) ... ok
+test_gaussian_against_numpy (test_all.TestTransitionLogPDFupf.test_gaussian_against_numpy) ... ok
+test_gaussian_logpdf (test_all.TestTransitionLogPDFupf.test_gaussian_logpdf) ... ok
+test_gaussian_symmetry (test_all.TestTransitionLogPDFupf.test_gaussian_symmetry) ... ok
+test_invalid_nu (test_all.TestTransitionLogPDFupf.test_invalid_nu) ... ok
+test_skewt_converges_to_gaussian (test_all.TestTransitionLogPDFupf.test_skewt_converges_to_gaussian) ... ok
+test_skewt_gamma_sensitivity (test_all.TestTransitionLogPDFupf.test_skewt_gamma_sensitivity) ... ok
+test_skewt_logpdf (test_all.TestTransitionLogPDFupf.test_skewt_logpdf) ... ok
+test_output_valid (test_all.TestGaussianLogPDF.test_output_valid) ... ok
+test_symmetry_property (test_all.TestGaussianLogPDF.test_symmetry_property) ... ok
+test_vs_true (test_all.TestGaussianLogPDF.test_vs_true) ... ok
+test_zero_mean (test_all.TestGaussianLogPDF.test_zero_mean) ... ok
+test_factory_parameter_capture (test_all.TestMakeTransitionLogpdf.test_factory_parameter_capture) ... ok
+test_gaussian_factory_matches_direct_call (test_all.TestMakeTransitionLogpdf.test_gaussian_factory_matches_direct_call) ... ok
+test_skewt_factory_matches_direct_call (test_all.TestMakeTransitionLogpdf.test_skewt_factory_matches_direct_call) ... ok
+test_vectorized_propagation_runs (test_all.TestPropagationGSMC.test_vectorized_propagation_runs) ... ok
+test_exact_formula (test_all.TestLogLikPoissonGrad.test_exact_formula) ... ok
+test_invalid_input_shape (test_all.TestLogLikPoissonGrad.test_invalid_input_shape) ... ok
+test_shape_and_finite (test_all.TestLogLikPoissonGrad.test_shape_and_finite) ... ok
+test_sign_behavior (test_all.TestLogLikPoissonGrad.test_sign_behavior) ... ok
+
+----------------------------------------------------------------------
+Ran 50 tests in 2.132s
+
+OK (skipped=9)

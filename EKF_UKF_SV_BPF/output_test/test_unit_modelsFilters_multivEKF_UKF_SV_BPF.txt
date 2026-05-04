@@ -1,0 +1,52 @@
+test_different_seeds_give_different_output (__main__.TestSVModelSimTFH.test_different_seeds_give_different_output)
+TestSVModelSimTFH.test_different_seeds_give_different_output
+Checks different seeds produce different simulated paths. ... ok
+test_iT_equal_1_multivariate (__main__.TestSVModelSimTFH.test_iT_equal_1_multivariate)
+TestSVModelSimTFH.test_iT_equal_1_multivariate
+Checks the iT=1 branch returns multivariate outputs with shape (1,d). ... ok
+test_iT_equal_1_univariate (__main__.TestSVModelSimTFH.test_iT_equal_1_univariate)
+TestSVModelSimTFH.test_iT_equal_1_univariate
+Checks the iT=1 branch returns univariate outputs with shape (1,). ... ok
+test_invalid_iT_raises (__main__.TestSVModelSimTFH.test_invalid_iT_raises)
+TestSVModelSimTFH.test_invalid_iT_raises
+Checks invalid values of iT raise ValueError. ... ok
+test_multivariate_structure_and_finite_output (__main__.TestSVModelSimTFH.test_multivariate_structure_and_finite_output)
+TestSVModelSimTFH.test_multivariate_structure_and_finite_output
+Checks multivariate outputs have correct shape, dtype, and finite values. ... ok
+test_same_seed_gives_same_output (__main__.TestSVModelSimTFH.test_same_seed_gives_same_output)
+TestSVModelSimTFH.test_same_seed_gives_same_output
+Checks identical seeds and parameters reproduce the same simulated paths. ... ok
+test_session (__main__.TestSVModelSimTFH.test_session)
+TestSVModelSimTFH.test_session
+Use cached_session instead. (deprecated) ... skipped 'Not a test.'
+test_univariate_structure_and_finite_output (__main__.TestSVModelSimTFH.test_univariate_structure_and_finite_output)
+TestSVModelSimTFH.test_univariate_structure_and_finite_output
+Checks univariate outputs have correct shape, dtype, and finite values. ... ok
+test_valid_configs_run (__main__.TestSVModelSimTFH.test_valid_configs_run)
+TestSVModelSimTFH.test_valid_configs_run
+Checks several valid configurations run and return finite outputs. ... ok
+test_filter_core_basic (__main__.TestFilterCore.test_filter_core_basic) ... ok
+test_non_finite_input_raises (__main__.TestFilterCore.test_non_finite_input_raises) ... ok
+test_ekf_kernels_basic (__main__.TestEKFKernels.test_ekf_kernels_basic) ... ok
+test_ukf_kernels_basic (__main__.TestUKFKernels.test_ukf_kernels_basic) ... ok
+test_basic_run (__main__.TestBootstrapParticleFilterResampling.test_basic_run) ... ok
+test_carry_resampled_weights_branch_runs (__main__.TestBootstrapParticleFilterResampling.test_carry_resampled_weights_branch_runs) ... ok
+test_constant_loglik_matches_total_loglik (__main__.TestBootstrapParticleFilterResampling.test_constant_loglik_matches_total_loglik) ... ok
+test_invalid_inputs_raise (__main__.TestBootstrapParticleFilterResampling.test_invalid_inputs_raise) ... ok
+test_nan_loglik_raises_invalid_argument (__main__.TestBootstrapParticleFilterResampling.test_nan_loglik_raises_invalid_argument) ... ok
+test_nan_resampled_weights_raise_invalid_argument (__main__.TestBootstrapParticleFilterResampling.test_nan_resampled_weights_raise_invalid_argument) ... ok
+test_numpy_input_conversion (__main__.TestBootstrapParticleFilterResampling.test_numpy_input_conversion) ... ok
+test_resample_threshold_branch_runs (__main__.TestBootstrapParticleFilterResampling.test_resample_threshold_branch_runs) ... ok
+test_zero_loglik_gives_zero_estimates_and_zero_loglik (__main__.TestBootstrapParticleFilterResampling.test_zero_loglik_gives_zero_estimates_and_zero_loglik) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 2.026s
+
+OK (skipped=1)
+
+============================================================
+ALL TESTS PASSED: True
+TOTAL TESTS: 22
+FAILURES: 0
+ERRORS: 0
+============================================================
