@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This project implements and evaluates a range of **state-space filtering methods**, including:
+This project implements and evaluates a range of **filtering methods** for **state-space models**, including:
 
 * Classical filters (KF, EKF, UKF)
 * Particle filters (BPF, UPF, GSMC)
