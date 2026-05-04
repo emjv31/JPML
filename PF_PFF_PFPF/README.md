@@ -165,7 +165,7 @@ The project follows this pipeline:
 
 4. **Execution**
 
-   * `run_pipeline.py` or `submission_execution_pipeline_FINAL_ALL.py` orchestrates the process
+   * `run_pipeline.py` or `execution_pipeline.py` orchestrates the process
 
 ---
 
