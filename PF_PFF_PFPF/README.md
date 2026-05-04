@@ -6,7 +6,7 @@ This project implements and evaluates a range of **state-space filtering methods
 
 * Classical filters (KF, EKF, UKF)
 * Particle filters (BPF, UPF, GSMC)
-* Particle Flow Filters (Hu-type flows)
+* Particle Flow Filters (Li and Hu-type flows)
 * Monte Carlo evaluation pipelines
 
 The repository is structured so that each file handles a **specific component of the pipeline**, and together they form a complete simulation–filtering–evaluation workflow.
